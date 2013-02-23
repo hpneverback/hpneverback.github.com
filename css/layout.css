@@ -1,0 +1,177 @@
+body {
+		margin:0px;
+		padding:0px;
+		font:12px Arial, Helvetica, sans-serif;
+		text-align:center; /* IE make center */
+		
+	}
+	
+#container {
+	width:960px;
+	margin-left:auto;     /* firefox  center*/
+	margin-right:auto;	/* firefox center*/
+	text-align:left;
+}
+
+#header {
+	float:left;
+	width:100%;
+	/*height:60px;*/
+}	
+
+#header #logo {
+	float:left;   
+	width:200px;
+	height:80px;
+
+	background:url(../images/iit.jpg) no-repeat 0 center;
+}
+
+#header #banner {
+	float:left;
+	width:600px;
+	height:80px;
+	background:blue;
+}
+
+#header #tool {
+	float:right;
+	width:140px;
+	height:80px;
+	background:#6F6;
+	
+}
+
+#header #menu {
+	float:left;
+	width:100%;
+	/*height:20px;*/
+	background:#999;	
+}
+
+#main {
+	float:left;
+	width:100%;
+
+}
+
+#main .leftbox {
+	float:left;
+	width:750px;
+	height:768px;
+}
+
+#main .rightbox {
+	float:right;
+	width:200px;
+	height:768px;
+	background:#0F0;	
+}
+
+.leftbox .left{
+	float:left;
+	width:340px;
+	height:379px;
+	background:#FCF		
+}
+
+.leftbox .right{
+	float:right;
+	width:400px;
+	height:379px;
+	background:#96F
+}
+
+#foot {
+	float:left;
+	width:100%;
+	height:60px;
+	background:#000;	
+}
+
+ul {
+	background:#C93;
+	margin:0px;
+	padding:0px;
+	list-style:none;		
+}
+
+li {
+	float:left;
+	height:28px;
+	line-height:28px;
+	width:80px;
+	text-align:center;
+}
+
+#menu a {
+	color:white;	
+}
+
+#header #menu .bar {
+	float:left;
+	width:1px;
+	height:14px;
+	margin-top:7px;
+	overflow:hidden;
+	background:#FFF;
+}
+
+.nav {
+	float:left;
+	width:100%;
+	height:10px;
+	clear:both;	
+	overflow:hidden;
+	
+}
+
+.title {
+	float:left;
+	width:100%;
+	height:26px;	
+	background:url(../images/title.png) no-repeat right;	
+}
+
+.title h3{
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+	line-height:26px;
+	width:100px;
+	font-size:14px;	
+	background:url(../images/title.png) no-repeat left;	
+}
+
+.content {
+	float:left;
+	width:338px !important;   /* FF use important as priority*/
+	width:340px;
+	height:353px;
+	border:1px solid #0F0;	
+}
+
+.content li {
+	float:left;
+	width:300px;
+	line-height:25px;
+	text-align:left;	
+	background:url(../images/dot.gif) repeat-x bottom;
+}
+
+.content li a {
+	background:url(../images/li_icon.gif) no-repeat 0 center;
+	padding-left:15px;
+
+}
+
+a:hover {
+	position:relative;
+	top:1px;
+	left:1px;
+	color:red;
+}
+
+li a{
+	text-decoration:none;	
+}

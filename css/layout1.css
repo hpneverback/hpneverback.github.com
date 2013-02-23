@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font:12px Arial, Helvetica, sans-serif;
+	text-align:center;
+	background:url(../images/background2.jpg) repeat;
+}
+
+#container {
+	width:800px;
+	height:950px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;		
+}
+
+#head {
+	width:100%;
+	height:229px;
+	background:url(../images/head2.jpg) no-repeat;
+}
+
+#menu {
+	float:left;
+	width:100%;
+	height:41px;
+	background:url(../images/menu.png) no-repeat;
+}
+
+#menu ul {
+	float:left;
+	margin:0px;
+	padding:0px;
+	list-style:none;		
+}
+
+#menu li {
+	float:left;
+	width: 200px;
+	text-align:center;
+	height:41px;
+	line-height:41px;
+}
+
+#main {
+	float:left;
+	width:100%;
+	height:680px;
+	background:url(../images/main.jpg) repeat;
+}
+
+#main #info {
+	float:right;
+	width: 481px;
+	height: 100%;
+	line-height:60px;
+	text-align:center;
+}
+
+#main #info a {
+	margin:10px;
+	padding:10px;
+	font-size:25px;
+	font-style:italic;
+	color:#FFF;	
+}
+
+#main #info ul {
+	float:left;
+	margin:0px;
+	padding:50px;	
+}
+
+#main #info ul li {
+	font-style:normal;
+	font-size:18px;
+	color:white;	
+}
+
+#main #photo {
+	float:left;
+	width: 319px;
+	height: 475px;
+	background:url(../images/photo.png) no-repeat 0 top;	
+}
+
+#main #iit {
+	float:left;
+	width: 319px;
+	height: 205px;
+	background:url(../images/iit.jpg) no-repeat 0 top;
+}
+
+#main #iit ul {
+	margin: 15px;
+	padding-left: 10px;	
+}
+#main #iit li {
+	margin:0px;
+	padding-top:40px;
+	font-size:15px;
+	font-style:normal;
+	color:#000;	
+}
+
+#foot {
+	float:left;
+	width: 100%;
+	height: 100px;
+	background:url(../images/menu.png) repeat-y 0 bottom;	
+	text-align:right;	
+}
+
+#foot a {
+	width:100%;
+	height: 100px;
+	line-height:100px;
+	padding-right:15px;
+	font-style:italic;
+	font-size:20px;
+	color: red;
+	overflow:hidden;
+}
+
+li a {
+	text-decoration:none;
+	font-size:18px;
+	font-style:oblique;
+	color:#000;	
+}
+
+a:hover {
+	position:relative;
+	top:2px;
+	left:2px;	
+}
